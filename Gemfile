@@ -35,7 +35,7 @@ end
 
 group :development do
   gem "web-console"
-  gem 'hotwire-livereload', '~> 2.0'
+  gem 'hotwire-livereload', '~> 2.1'
 end
 
 group :test do
@@ -43,4 +43,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "hotwire-livereload", "~> 2.0", group: :development
+gem "hotwire-livereload", "~> 2.1", group: :development
